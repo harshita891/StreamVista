@@ -36,7 +36,7 @@ export const InfoCard = ({
               Maximize your visibility
             </p>
           </div>
-          <InfoModal initialName={name} initialThumbnailUrl={thumbnailUrl} />
+          <InfoModal initialName={name} initialThumbnailUrl={thumbnailUrl ?? null} />
         </div>
         <Separator />
         <div className="p-4 lg:p-6 space-y-4">
@@ -56,7 +56,7 @@ export const InfoCard = ({
                 />
               </div>
             ) : (
-              <p>No thumbnail available</p> // Placeholder or default message
+              <p>No thumbnail available</p>
             )}
           </div>
         </div>
