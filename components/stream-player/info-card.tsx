@@ -1,10 +1,6 @@
-"use client";
-
 import Image from "next/image";
 import { Pencil } from "lucide-react";
-
 import { Separator } from "@/components/ui/separator";
-
 import { InfoModal } from "./info-modal";
 
 interface InfoCardProps {
@@ -50,7 +46,7 @@ export const InfoCard = ({
           </div>
           <div>
             <h3 className="text-sm text-muted-foreground mb-2">Thumbnail</h3>
-            {thumbnailUrl && (
+            {thumbnailUrl ? (
               <div className="relative aspect-video rounded-md overflow-hidden w-[200px] border border-white/10">
                 <Image
                   fill
@@ -59,6 +55,8 @@ export const InfoCard = ({
                   className="object-cover"
                 />
               </div>
+            ) : (
+              <p>No thumbnail available</p> // Placeholder or default message
             )}
           </div>
         </div>
