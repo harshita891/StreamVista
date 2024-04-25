@@ -5,7 +5,7 @@ import { InfoModal } from "./info-modal";
 
 interface InfoCardProps {
   name: string;
-  thumbnailUrl: string | null;
+  thumbnailUrl: string | null | undefined;
   hostIdentity: string;
   viewerIdentity: string;
 }
