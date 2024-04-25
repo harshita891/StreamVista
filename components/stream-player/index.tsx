@@ -84,7 +84,7 @@ export const StreamPlayer = ({
             hostName={user.username}
             hostIdentity={user.id}
             viewerIdentity={identity}
-            bio={user.bio}
+            bio={user.bio ?? null}
             followedByCount={user._count.followedBy}
           />
         </div>
