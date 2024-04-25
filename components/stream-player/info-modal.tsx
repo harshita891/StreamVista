@@ -39,7 +39,7 @@ export const InfoModal = ({
 
   const onRemove = () => {
     startTransition(() => {
-      updateStream({ thumbnail: null })
+      updateStream({ thumbnailUrl: null })
         .then(() => {
           toast.success("Thumbnail removed");
           setThumbnailUrl("");
