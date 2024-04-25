@@ -26,7 +26,7 @@ Live streaming platform like twitch.
 Clone the project on your machine
 
 ```bash
-  git clonehttps://github.com/faisal004/twitch-clone.git
+  git clonehttps://github.com/harshita891/StreamVista.git
 ```
 Open Project
 ```bash
