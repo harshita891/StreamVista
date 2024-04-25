@@ -18,15 +18,15 @@ type CustomStream={
   isChatDelayed:boolean;
   isChatFollowersOnly:boolean;
   isLive:boolean;
-  thumbnail:string|null;
+  thumbnail?:string|null;
   name:string;
 
 };
 type CustomUser={
   id:string;
   username:string;
-  bio:string|null;
-  stream: CustomStream |null;
+  bio?:string|null;
+  stream?: CustomStream |null;
   imageUrl:string;
   _count:{followedBy:number}
 
