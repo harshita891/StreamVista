@@ -1,7 +1,6 @@
 
 
 
-https://github.com/faisal004/twitch-clone/assets/88244542/0b38b3f6-7482-43ac-9eb4-e40858838449
 
 
 # StreamVista
@@ -81,9 +80,8 @@ yarn dev
 
 - Migrate auth from clerk to NextAuth
 
-## Feedback 
 
-Feel free to provide Feedback at 
-faisalhusain1320@gmail.com
+
+
 # StreamVista
 # OnlineStream
